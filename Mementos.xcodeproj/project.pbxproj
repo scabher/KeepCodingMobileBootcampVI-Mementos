@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD7322A206C4D3F007CF5D8 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD73226206C4D3F007CF5D8 /* Note+CoreDataClass.swift */; };
+		3FD7322B206C4D3F007CF5D8 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD73227206C4D3F007CF5D8 /* Note+CoreDataProperties.swift */; };
+		3FD7322C206C4D3F007CF5D8 /* PhotoContainer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD73228206C4D3F007CF5D8 /* PhotoContainer+CoreDataClass.swift */; };
+		3FD7322D206C4D3F007CF5D8 /* PhotoContainer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD73229206C4D3F007CF5D8 /* PhotoContainer+CoreDataProperties.swift */; };
 		3FE35EEC206C28BA00E8D51E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35EEB206C28BA00E8D51E /* AppDelegate.swift */; };
 		3FE35EEE206C28BA00E8D51E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35EED206C28BA00E8D51E /* ViewController.swift */; };
 		3FE35EF1206C28BA00E8D51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE35EEF206C28BA00E8D51E /* Main.storyboard */; };
 		3FE35EF3206C28BA00E8D51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE35EF2206C28BA00E8D51E /* Assets.xcassets */; };
 		3FE35EF6206C28BA00E8D51E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE35EF4206C28BA00E8D51E /* LaunchScreen.storyboard */; };
+		3FE35F01206C29C600E8D51E /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35F00206C29C600E8D51E /* Container.swift */; };
+		3FE35F04206C2BA700E8D51E /* Mementos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35F02206C2BA700E8D51E /* Mementos.xcdatamodeld */; };
+		3FE35F17206C447700E8D51E /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE35F16206C447700E8D51E /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FD73226206C4D3F007CF5D8 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3FD73227206C4D3F007CF5D8 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3FD73228206C4D3F007CF5D8 /* PhotoContainer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoContainer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3FD73229206C4D3F007CF5D8 /* PhotoContainer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoContainer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3FE35EE8206C28BA00E8D51E /* Mementos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mementos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE35EEB206C28BA00E8D51E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE35EED206C28BA00E8D51E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,9 @@
 		3FE35EF2206C28BA00E8D51E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE35EF5206C28BA00E8D51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FE35EF7206C28BA00E8D51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE35F00206C29C600E8D51E /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		3FE35F03206C2BA700E8D51E /* Mementos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mementos.xcdatamodel; sourceTree = "<group>"; };
+		3FE35F16206C447700E8D51E /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD73225206C4D27007CF5D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FD73226206C4D3F007CF5D8 /* Note+CoreDataClass.swift */,
+				3FD73227206C4D3F007CF5D8 /* Note+CoreDataProperties.swift */,
+				3FD73228206C4D3F007CF5D8 /* PhotoContainer+CoreDataClass.swift */,
+				3FD73229206C4D3F007CF5D8 /* PhotoContainer+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3FE35EDF206C28BA00E8D51E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +79,8 @@
 		3FE35EEA206C28BA00E8D51E /* Mementos */ = {
 			isa = PBXGroup;
 			children = (
+				3FE35F16206C447700E8D51E /* image.png */,
+				3FE35EFD206C28F700E8D51E /* Domain */,
 				3FE35EEB206C28BA00E8D51E /* AppDelegate.swift */,
 				3FE35EED206C28BA00E8D51E /* ViewController.swift */,
 				3FE35EEF206C28BA00E8D51E /* Main.storyboard */,
@@ -62,6 +89,16 @@
 				3FE35EF7206C28BA00E8D51E /* Info.plist */,
 			);
 			path = Mementos;
+			sourceTree = "<group>";
+		};
+		3FE35EFD206C28F700E8D51E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3FD73225206C4D27007CF5D8 /* Model */,
+				3FE35F00206C29C600E8D51E /* Container.swift */,
+				3FE35F02206C2BA700E8D51E /* Mementos.xcdatamodeld */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +163,7 @@
 				3FE35EF6206C28BA00E8D51E /* LaunchScreen.storyboard in Resources */,
 				3FE35EF3206C28BA00E8D51E /* Assets.xcassets in Resources */,
 				3FE35EF1206C28BA00E8D51E /* Main.storyboard in Resources */,
+				3FE35F17206C447700E8D51E /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE35EEE206C28BA00E8D51E /* ViewController.swift in Sources */,
+				3FE35F04206C2BA700E8D51E /* Mementos.xcdatamodeld in Sources */,
+				3FD7322D206C4D3F007CF5D8 /* PhotoContainer+CoreDataProperties.swift in Sources */,
+				3FD7322A206C4D3F007CF5D8 /* Note+CoreDataClass.swift in Sources */,
+				3FE35F01206C29C600E8D51E /* Container.swift in Sources */,
 				3FE35EEC206C28BA00E8D51E /* AppDelegate.swift in Sources */,
+				3FD7322B206C4D3F007CF5D8 /* Note+CoreDataProperties.swift in Sources */,
+				3FD7322C206C4D3F007CF5D8 /* PhotoContainer+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +364,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FE35F02206C2BA700E8D51E /* Mementos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FE35F03206C2BA700E8D51E /* Mementos.xcdatamodel */,
+			);
+			currentVersion = 3FE35F03206C2BA700E8D51E /* Mementos.xcdatamodel */;
+			path = Mementos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3FE35EE0206C28BA00E8D51E /* Project object */;
 }
